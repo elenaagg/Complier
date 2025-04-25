@@ -1,0 +1,201 @@
+-------------------------------------------------------------------------------------------------
+
+Level: 1   Scope: max3
+     Entity <------ m/12/variable
+     Entity <------ T_0/16/temporary
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+-------------------------------------------------------------------------------------------------
+
+Level: 1   Scope: fib
+     Entity <------ T_1/12/temporary
+
+     Entity <------ T_2/16/temporary
+
+     Entity <------ T_3/20/temporary
+
+     Entity <------ T_4/24/temporary
+
+     Entity <------ T_5/28/temporary
+
+     Entity <------ T_6/32/temporary
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+-------------------------------------------------------------------------------------------------
+
+Level: 2   Scope: divides
+     Entity <------ T_7/12/temporary
+
+     Entity <------ T_8/16/temporary
+
+     Entity <------ T_9/20/temporary
+
+Level: 1   Scope: isPrime
+     Entity <------ i/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ divides Framelength: 24
+                    divides StartingQuad: 45
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+
+     Entity <------ x/32/parameter
+     Entity <------ isPrime Framelength: 0
+                    isPrime StartingQuad: 44
+-------------------------------------------------------------------------------------------------
+
+Level: 1   Scope: isPrime
+     Entity <------ i/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ divides Framelength: 24
+                    divides StartingQuad: 45
+
+     Entity <------ T_10/24/temporary
+
+     Entity <------ T_11/28/temporary
+
+     Entity <------ T_12/32/temporary
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+
+     Entity <------ x/32/parameter
+     Entity <------ isPrime Framelength: 36
+                    isPrime StartingQuad: 44
+-------------------------------------------------------------------------------------------------
+
+Level: 2   Scope: sqr
+     Entity <------ T_13/12/temporary
+
+     Entity <------ T_14/16/temporary
+
+Level: 1   Scope: quad
+     Entity <------ y/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ sqr Framelength: 20
+                    sqr StartingQuad: 75
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+
+     Entity <------ x/32/parameter
+     Entity <------ isPrime Framelength: 36
+                    isPrime StartingQuad: 44
+
+     Entity <------ x/36/parameter
+     Entity <------ quad Framelength: 0
+                    quad StartingQuad: 74
+-------------------------------------------------------------------------------------------------
+
+Level: 1   Scope: quad
+     Entity <------ y/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ sqr Framelength: 20
+                    sqr StartingQuad: 75
+
+     Entity <------ T_15/20/temporary
+
+     Entity <------ T_16/24/temporary
+
+     Entity <------ T_17/28/temporary
+
+     Entity <------ T_18/32/temporary
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+
+     Entity <------ x/32/parameter
+     Entity <------ isPrime Framelength: 36
+                    isPrime StartingQuad: 44
+
+     Entity <------ x/36/parameter
+     Entity <------ quad Framelength: 36
+                    quad StartingQuad: 74
+-------------------------------------------------------------------------------------------------
+
+Level: 1   Scope: leap
+     Entity <------ T_19/12/temporary
+
+     Entity <------ T_20/16/temporary
+
+     Entity <------ T_21/20/temporary
+
+     Entity <------ T_22/24/temporary
+
+Level: 0   Scope: Main
+     Entity <------ counterFunctionCalls/12/variable
+     Entity <------ x/16/parameter
+     Entity <------ y/20/parameter
+     Entity <------ z/24/parameter
+     Entity <------ max3 Framelength: 20
+                    max3 StartingQuad: 2
+
+     Entity <------ x/28/parameter
+     Entity <------ fib Framelength: 36
+                    fib StartingQuad: 20
+
+     Entity <------ x/32/parameter
+     Entity <------ isPrime Framelength: 36
+                    isPrime StartingQuad: 44
+
+     Entity <------ x/36/parameter
+     Entity <------ quad Framelength: 36
+                    quad StartingQuad: 74
+
+     Entity <------ year/40/parameter
+     Entity <------ leap Framelength: 28
+                    leap StartingQuad: 93
